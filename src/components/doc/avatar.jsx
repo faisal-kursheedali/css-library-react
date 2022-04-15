@@ -41,11 +41,11 @@ const Avatar
   <hr />
   <div className="head3">Square avatar</div>
   <div className="gray-bg">
-    <img src="https://wallpaperaccess.com/full/2213424.jpg" alt className="avatar-sqr avatar-xl" />
-    <img src="https://wallpaperaccess.com/full/2213424.jpg" alt className="avatar-sqr avatar-lrg" />
-    <img src="https://wallpaperaccess.com/full/2213424.jpg" alt className="avatar-sqr avatar-md" />
-    <img src="https://wallpaperaccess.com/full/2213424.jpg" alt className="avatar-sqr avatar-sm" />
-    <img src="https://wallpaperaccess.com/full/2213424.jpg" alt className="avatar-sqr avatar-xsm" />
+    <img src="https://wallpaperaccess.com/full/2213424.jpg" alt='' className="avatar-sqr avatar-xl" />
+    <img src="https://wallpaperaccess.com/full/2213424.jpg" alt='' className="avatar-sqr avatar-lrg" />
+    <img src="https://wallpaperaccess.com/full/2213424.jpg" alt='' className="avatar-sqr avatar-md" />
+    <img src="https://wallpaperaccess.com/full/2213424.jpg" alt='' className="avatar-sqr avatar-sm" />
+    <img src="https://wallpaperaccess.com/full/2213424.jpg" alt='' className="avatar-sqr avatar-xsm" />
   </div>
   <div className="head3">how to use it</div>
   <div className="p2">It is very easy to use, You just need to add
@@ -102,14 +102,7 @@ const Avatar
     </ul>
   </div>
   <div className="p2 cta1">this is the small example to write avatar-size :</div>
-  {/* <div className="code-box">
-    <div className="tag-open">img</div>
-    <div className="tag-attribute">src</div>
-    <div className="tag-attribute">alt</div>
-    <div className="tag-class">avatar-rnd <span className="highlighted">avatar-xsm</span></div>
-    <div className="tag-txt" />
-  </div>
-  <hr /> */}
+  
   <Showcode code={`<img src="../../images/img2.jpg" alt="" class="avatar-sqr avatar-xl"/>
 <img src="../../images/img2.jpg" alt="" class="avatar-sqr avatar-lrg"/>
 <img src="../../images/img2.jpg" alt="" class="avatar-sqr avatar-md"/>
