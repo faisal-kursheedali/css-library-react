@@ -1,0 +1,35 @@
+/* this file has all the css var for text utility */
+:root{
+    --head1-fontsize:6.25rem;
+    --head2-fontsize:5rem;
+    --head3-fontsize:3rem;
+    --head4-fontsize:2rem;
+
+    --p1-fontsize:1.75rem;
+    --p2-fontsize:1.5rem;
+    --p3-fontsize:1.25rem;
+    --small-fontsize:1rem;
+    
+
+    --cta1:var(--cta-clr1);
+    --cta2:var(--cta-clr2);
+    --cta3:var(--cta-clr3);
+    --cta4:var(--cta-clr4);
+    --cta5:var(--cta-clr5);
+
+    
+    --text-on-cta1:var(--black-txt);
+    --text-on-cta2:var(--black-txt);
+    --text-on-cta3:var(--black-txt);
+    --text-on-cta4:var(--black-txt);
+    --text-on-cta5:var(--black-txt);
+    --text-on-heighlited:var(--black-txt);
+
+    
+    
+    --head-white:var(--white-txt);
+    --head-gray:var(--black-txt);
+    --head-black:var(--gray-txt);
+
+
+}

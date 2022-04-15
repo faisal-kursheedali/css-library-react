@@ -1,0 +1,10 @@
+:root{
+    --code-fontsize:var(--p3-fontsize);
+    --code-tag:#0000cd;
+    --code-class:var(--cta-clr1);
+    --code-tag-name:var(--code-tag);
+    --code-box-bg:var(--darkgray-bg);
+    --code-txt:#f8fcff;
+    --code-box-border:var(--cta-clr1);
+    --code-attribute:rgb(44, 230, 236);
+}

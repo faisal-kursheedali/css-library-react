@@ -1,0 +1,39 @@
+/* This file has all the css for footer component */
+
+/* footer container */
+.footer{
+    display: block;
+    width: 100%;
+    background-color: var(--darkgray-bg);
+    margin-bottom: 0;
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+/* footer head text */
+.footer-header{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+/* footer list of social media */
+.footer-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+/* footer items of social media  */
+.footer-list-item{
+    display: inline;
+    margin-left: 1rem;
+}
+
+/* footer sub-text */
+.footer-sub-txt{
+    text-align: center;
+    font-size: 1.1rem;
+}

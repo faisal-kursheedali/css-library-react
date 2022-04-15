@@ -1,0 +1,32 @@
+/* @import url('../root/color.css'); */
+.nav{
+    background-color: gray;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 8px;
+}
+.nav-logo{
+    font-size: 2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: var(--cta1);
+}
+
+.nav-list{
+    margin-left: auto;
+    margin-bottom: 0;
+}
+.nav-item{
+    display: inline;
+    margin-left: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.nav-item:hover{
+    color: var(--cta1);
+}

@@ -1,0 +1,110 @@
+/* This file has all css required for badge component */ 
+
+
+/* badge on avatar */
+.badge-avatar{
+    position: relative;
+    width: inherit;
+    display: inline-block;
+}
+.badge-avatar::after{
+    content: '';
+    position: absolute;
+    aspect-ratio: 1/1;
+    border-radius: 3rem;
+    width:20%;
+   
+    background-color: red;
+
+}
+/* badge location */
+.badge-btm-right::after{
+    bottom: 0;
+    right:10%;
+}
+.badge-btm-left::after{
+    bottom: 0;
+    left:10%;
+}
+.badge-top-right::after{
+    top: 0;
+    right:10%;
+}
+.badge-top-left::after{
+    top: 0;
+    left:10%;
+}
+/* badge on icon */
+.badge-icon{
+    position: relative;
+    width: inherit;
+    display: inline-block;
+    font-size: var(--icn-lrg);
+}
+.badge-icon::after{
+    content: "2";
+    
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align:center;
+    transform-origin:bottom left;
+    transform: translate(75%,-75%);
+    min-width: 70%;
+    min-height: 70%;
+    border-radius: 3rem;
+    background-color: red;
+}
+
+/* badge on text */
+.badge-txt ,.badge-txt-rnd{
+    
+    background-color: var(--badge-gray);
+    text-align: center;
+    padding:.2rem .65rem;
+    border-radius: .5rem;
+}
+.badge-txt-rnd{
+    border-radius: 3rem;
+}
+
+
+/* badge colors */
+.badge-txt-red , .badge-red::after{
+    background-color: var(--badge-red);
+}
+.badge-txt-green,.badge-green::after{
+    background-color: var(--badge-green);
+}
+.badge-txt-yellow,.badge-yellow::after{
+    background-color: var(--badge-yellow);
+    color: var(--black-txt);
+}
+.badge-txt-gray,.badge-gray::after{
+    background-color: var(--badge-gray);
+}
+.badge-txt-cta1,.badge-cta1::after{
+    background-color: var(--cta1);
+}
+.badge-txt-cta2,.badge-cta2::after{
+    background-color: var(--cta2);
+    color: var(--black-txt);
+}
+.badge-txt-cta3,.badge-cta3::after{
+    background-color: var(--cta3);
+    
+}
+.badge-txt-cta4,.badge-cta4::after{
+    background-color: var(--cta4);
+    color: var(--black-txt);
+    
+}
+.badge-content::after{
+    content: var(--content);
+    
+}   

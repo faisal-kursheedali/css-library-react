@@ -1,0 +1,135 @@
+/* this has all styke for individual product page */
+
+/* container for prodect page  */
+.prod-page-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.prod-main-part,.prod-sub-part{
+    align-self: flex-start;
+}
+
+.prod-img-container{
+    display: flex;
+    max-width: 400px;
+}
+.prod-side-img-container{
+    display:flex ;
+    flex-direction: column;
+    width: auto;
+    margin-right: 2rem;
+    
+    border-right: 2px solid rgb(80, 77, 77);
+}
+.prod-side-img{
+    width: 50px;
+    height: 60px;
+    cursor: pointer;
+        margin: .5rem auto;
+}
+
+.prod-main-img-container{
+    width: 80%;
+    overflow: hidden;
+    
+}
+.prod-btn{
+    
+    margin: auto;
+    margin-top: 1rem;
+}
+.prod-main-img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.prod-name,.prod-price{
+    
+    align-self: flex-start;
+    /* line-height:1; */
+}
+.prod-sub-part{
+    width: 100%;
+    
+}
+.prod-rate-small-txt,.prod-rate{
+    align-self: flex-start;
+    display: inline;
+
+}
+.prod-rate-small-txt{
+    margin-left: 8px;
+}
+.prod-special-offer,.prod-delivary{
+    align-self: flex-start;
+    margin-top: 8px;
+}
+.prod-price-container,.prod-size-container,.prod-detail-container,.prod-sold-by-container{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid ;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.prod-sizm,.prod-sizl,.prod-sizxl,.prod-sizxxl{
+    display: inline;
+    margin: .5rem;
+}
+
+@media (min-width:767px) {
+    .prod-page-container{
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+    .prod-sub-part{
+        width: 300px;
+        margin-left: 1rem;
+    }
+}
+@media (min-width:800px) {
+    .prod-page-container{
+        flex-direction: row;
+        justify-content:center;
+    }
+    .prod-sub-part{
+        margin-left: 2rem;
+    }
+}
+
+.prod-sold-by-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.prod-shop{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.prod-shop-btn{
+    display: inline;
+    margin-left: auto;
+    
+}
+.prod-shop-icn{
+    font-size: 3rem;
+}
+.prod-shop-value{
+    display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.shop-rate-icn{
+    font-size: inherit;
+}
+.shop-rate-sub-txt,.shop-fallow-sub-txt,.shop-products-sub-txt{
+margin-top: .5rem;
+}

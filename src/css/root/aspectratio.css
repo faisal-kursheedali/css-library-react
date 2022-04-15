@@ -1,0 +1,11 @@
+/* this file has all the css var for aspect ratio utility */
+
+.aspect-sqr{
+    aspect-ratio: 1/1;
+}
+.aspect-vertical-rec{
+    aspect-ratio: 1/2;
+}
+.aspect-horizontal-rec{
+    aspect-ratio: 2/1;
+}

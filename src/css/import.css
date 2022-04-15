@@ -1,0 +1,7 @@
+/* In this file all the root files and css component files are imported */
+ 
+ @import url(./root/mainroot.css);
+@import url(./lib/main.css);
+
+
+/* we just need to import this file to use in this components in our project */

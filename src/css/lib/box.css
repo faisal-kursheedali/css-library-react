@@ -1,0 +1,39 @@
+/* @import url(../lib/main-root.css); */ 
+/* .box-center,.box-center-flxcolumn,.box-center-flxrow{
+    border-radius: .5rem;
+    margin:1rem auto;
+    padding: 1rem;
+}
+.box-center{
+    width: 50%;
+    min-width: 600px;
+} */
+
+/* .flex-container-row{
+    background-color: red;
+    /* margin: auto;
+    display: flex;
+    f
+    background-color: red;
+    flex-wrap: wrap;
+    max-width: 600px;
+    height: auto; 
+}*/
+
+.xmp-box{
+    border-left:10px solid var(--cta3) ;
+    width: auto;
+    overflow-x: auto;
+    background-color:black;
+    color: var(--white-txt);
+    padding: .5rem;
+}
+.xmp-box::-webkit-scrollbar{
+    height: .5rem;
+    background-color: var(--litegray-bg);
+    border-radius: .5rem;
+}
+.xmp-box::-webkit-scrollbar-thumb{
+    background-color: var(--cta1);
+    border-radius: .5rem;
+}

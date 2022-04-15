@@ -1,0 +1,56 @@
+/* This file has all css required for Avatar component */
+
+
+/* all varient fallow some same rules */
+.avatar-sqr,.avatar-rnd,.avatar-txt{
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+/*rounded avatar */
+.avatar-rnd{
+    border-radius: 50%;
+    width: 3.75rem;
+    object-fit: cover;
+}
+/* squared avatar */
+.avatar-sqr{
+    border-radius:.5rem;
+    width: auto;
+    object-fit: cover;
+    
+}
+/* texted avatar */
+.avatar-txt{
+    border-radius: 50%;
+    width: 10rem;
+    font-size:2rem;
+    text-align: center;
+    background-color: var(--cta-clr1);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* sizes of avatar */
+.avatar-xsm{
+    width: 2.5rem;
+    font-size: 0.8rem;
+}
+.avatar-sm{
+    width: 3.75rem;
+    font-size: 1rem;
+}
+.avatar-md{
+    width: 6.25rem;
+    font-size: 1.5rem;
+}
+.avatar-lrg{
+    width: 9.375rem;
+    font-size: 1.75rem;
+}
+.avatar-xl{
+    width:12.5rem;
+    font-size: 2rem;
+}

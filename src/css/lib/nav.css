@@ -1,0 +1,434 @@
+/* This file has all the css for nav component */
+
+/* commen nav bar on top */
+.nav{
+    background-color: var(--darkgray-bg);
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 0px;
+    
+}
+.nav-logo{
+    font-size: 2rem;
+    color: var(--cta1);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.nav-logo-icn{
+    font-size: inherit;
+
+    color: var(--cta1);
+}
+.nav-logo:hover{
+    color: var(--cta2);
+ }
+.nav-list{
+    margin-left: auto;
+    list-style: none;
+    padding-bottom: 0px;
+}
+.nav-item{
+    display: inline;
+    padding-left: 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.nav-link{
+    color: inherit;
+    text-decoration: none;
+}
+.nav-item:hover{
+   color: var(--cta1);
+}
+
+/* for nav items with icons */
+.nav-icn{
+    font-size: 2rem;
+    color: var(--cta2);
+    cursor: pointer;
+}
+.nav-icn:hover,.nav-icn:active,.nav-icn:focus{
+    color: var(--cta1);
+}
+
+
+/* side nav bar  */
+/* they are two types one with menu button another without menu btn */
+/* menu btn are mostely used for mobile view and default side navigation bar are mostely used for bigb screen view */
+
+/* container to keep the side bar */
+.container-for-sidenav,.container-for-navmenu{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+
+}
+.container-for-sidenav{
+    display: none;
+    height: 100vh;
+}
+/* side nav  area */
+.sidenav,.navmenu{
+    width: 25%;
+    background-color: var(--gray-bg);
+    text-align: center;
+
+}
+/* list on side nav area  */
+.sidenav-list,.navmenu-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    width: 100%;
+}
+
+/* items in side nav area */
+.sidenav-item,.navmenu-item{
+    width: 100%;
+    padding: 1rem;
+    margin: 2px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.sidenav-item:hover{
+    border:3px solid var(--cta3);
+}
+
+/* content in main space <or> space other than nav area */
+.content-of-sidenav,.content-of-navmenu{
+    width: 75%;
+    background-color:var(--white-bg);
+}
+.content-of-sidenav{
+    overflow-y: scroll;
+}
+.content-of-sidenav::-webkit-scrollbar{
+    width: 8px;
+    background-color: var(--litegray-bg);
+    border-radius: .5rem;
+}
+.content-of-sidenav::-webkit-scrollbar-thumb{
+    width: 2px;
+    border-radius: .5rem;
+    background-color: var(--cta1);
+}
+
+/* side nav menu button */
+.navmenu-btn{
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--gray-bg);
+    color: var(--white-txt);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    text-align: center;
+    border: 4px solid var(--cta1);
+}
+.navmenu{
+    width: 100%;
+    margin-top: 0px;
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: var(--litegray-bg);
+    border: 4px solid var(--cta1);
+    box-sizing: border-box;
+}
+.navmenu::-webkit-scrollbar{
+    background-color: var(--darkgray-bg);
+    width: 10px;
+    border-radius: .5rem;
+}
+.navmenu::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: var(--cta1);
+    width: 4px;
+}
+.navmenu-list{
+    margin-top: 0px;
+    /* padding: 1rem; */
+}
+.navmenu-item{
+    width: 80%;
+    margin: .5rem;
+    padding: 4px;
+}
+
+.content-of-navmenu{
+    display: block;
+    width: 100%;
+}
+
+
+/* for responsive web page */
+@media (min-width:750px) {
+    .container-for-sidenav{
+        display: flex;
+    }
+    .container-for-navmenu{
+        display: none;
+    }
+    .navmenu-btn{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+/* Errors of nav component [need to work in this...]*/
+.waste{
+/* .nav-side{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 8px;
+    z-index: 1;
+    width: 50vw;
+    height: 100vh;
+    background-color: var(--litegray-bg);
+}
+.nav-side-header{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    padding-top: 2rem;
+    background-color: var(--litegray-bg);
+    border-top: 5px solid var(--cta1);
+    border-bottom: 5px solid var(--cta1);
+}
+.nav-side-home,.nav-side-lib {
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.nav-side-home,.nav-side-lib a{
+    text-decoration: none;
+    color: black;
+}
+.nav-side-icnx{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    font-size: var(--p1-fontsize);
+    color: black;
+}
+.nav-side-lib:hover,.nav-side-home:hover{
+    background-color: white;
+    
+}
+.main-space{
+    display: flex;
+    flex-direction: column;
+}
+.nav-slide{
+    position: sticky;
+    top: 0;
+    font-size: 2rem;
+    background-color: var(--darkgray-bg);
+    margin: 0px;
+    color: var(--cta2);
+    cursor: pointer;
+    padding: 1rem;
+}
+.nav-slide-icn{
+    font-size: inherit;
+    color: var(--cta1);
+
+    
+}
+.nav-slide-content{
+    display: none;
+
+}
+.nav-slide-li{
+    
+    background-color: var(--darkgray-bg);
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.nav-slide-li li{
+    display: block;
+    padding: 1rem;
+    margin: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+.nav-slide-li li:hover{
+    color: var(--cta1);
+    background-color: white;
+} */
+    /* .nav-compo-container{
+    position: fixed;
+    left: 10;
+    width: 40vw;
+    top: 50px;
+    
+} */
+/* .nav-compo-li li{
+    display: block;
+    padding: 1rem;
+    margin: 0px;
+    margin-left: 0px;
+    width: 100%;
+} */
+/* .nav-compo-li li:hover{
+    color: var(--cta1);
+    background-color: white;
+} */
+/* @media (min-width:1025px) {
+    .main-space{
+        flex-direction: row;
+    }
+    
+    .nav-slide-container{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 20vw;
+        height: 100vh;
+        overflow-y: auto;
+        background-color: var(--darkgray-bg);
+    }
+    .nav-slide-content{
+        display: block;
+        width: 100%;
+        
+    
+    }
+    .nav-slide{
+        background-color: white;
+        pointer-events: none;
+        
+    
+    }
+    .nav-slide-icn{
+        display: none;
+    }
+    
+}
+@media (max-width:426px) {
+    .nav-side{
+        width: 40vw;
+    }
+} *//* .nav-logo{
+    display: inline-block;
+    font-size: 2rem;
+    
+}
+.nav-logo .nav-icn{
+    font-size: inherit;
+}
+.nav-icn{
+    cursor: pointer;
+    font-size: 200%;
+}
+.nav-menu,.nav-cart,.nav-sleep{
+    margin-right:0;
+}
+*/
+/* .slide-menu::-webkit-scrollbar{
+    width:0px;
+}
+.slide-menu::-webkit-scrollbar-track{
+    width:5px;
+    background-color: var(--litegray-bg);
+}
+.slide-menu::-webkit-scrollbar-thumb{
+    background-color: var(--cta2);
+} */
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide-menu{
+    position: sticky;
+    top: 0;
+
+    width: 100;
+    margin: auto;
+    display:block;
+    overflow: scroll;
+    overflow-y: hidden;
+    padding: 0px;
+    background-color: var(--darkgray-bg);
+}
+.slide-menu ul{
+    list-style: none;
+    width: 100%;
+    height:inherit;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+    align-items: center;
+    
+    margin: 0px;
+}
+.slide-menu ul li{
+    display: inline;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-left: 0px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: auto 5px;
+    border: 5px solid var(--cta2);
+}
+.slide-menu ul li:hover{
+    border: 5px solid var(--cta1); */
+/* } */
+/* .main-container{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+    background-color: inherit;
+    color: inherit;
+    
+}
+.component-space{
+    align-items: center;
+    
+} */
+}

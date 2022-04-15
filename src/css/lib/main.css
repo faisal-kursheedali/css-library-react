@@ -1,0 +1,25 @@
+/* This file has all the css files of component library */
+
+@import url(./alert.css);
+@import url(./avatar.css);
+@import url(./badge.css);
+@import url(./bg.css);
+@import url(./box.css);
+@import url(./button.css);
+@import url(./card.css);
+@import url(./codebox.css);
+@import url(./display.css);
+@import url(./img.css);
+@import url(./input.css);
+@import url(./list.css);
+@import url(./modal.css);
+@import url(./nav.css);
+@import url(./product.css);
+@import url(./rating.css);
+@import url(./text.css);
+@import url(./toast.css);
+@import url(./header.css);
+@import url(./alignment.css);
+@import url(./txtclr.css);
+@import url(./footer.css);
+/* @import url(./alignment.css); */

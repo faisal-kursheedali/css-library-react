@@ -1,0 +1,128 @@
+/* This file has all css required for Input component */
+
+
+/* all varient fallow some same css  */
+.input,
+.input-rnd,
+.input-center,
+.input-inlineBlock,
+.input-sm,
+.input-md,
+.input-lrg,
+.input-yellow,
+.input-red,
+.input-blue,
+.input-gray,
+.input-green,.input-icn-container{
+    margin-top: 1rem;
+    font-weight: bold;
+    width: 90%;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    border: 2px solid;
+    display: block;
+    outline: none;
+}
+
+/* curved input box */
+.input-rnd {
+    border-radius: 3rem;
+}
+
+/* centered input */
+.input-center{
+    margin: .5rem auto;
+
+}
+
+/* for inline input box */
+.input-inlineBlock {
+    display: inline-block;
+}
+
+/* inout sizes */
+.input-sm {
+    font-size: var(--p3-fontsize);
+    padding: 0.25rem;
+}
+
+.input-md {
+    font-size:  var(--p2-fontsize);
+    padding: 0.5rem;
+}
+
+.input-lrg {
+    font-size: var(--p1-fontsize);
+    padding: 0.6rem;
+}
+
+
+
+
+
+
+/* inpput colors */
+.input-green {
+    color: var(--green-clr);
+    background-color: var(--green-bg);
+    border-color: var(--green-border);
+}
+
+.input-gray {
+    color: var(--gray-clr);
+    background-color: var(--gray-bg);
+    border-color: var(--gray-border);
+}
+
+.input-blue {
+    color: var(--blue-clr);
+    background-color: var(--blue-bg);
+    border-color: var(--blue-border);
+}
+
+.input-red {
+    color: var(--red-clr);
+    background-color: var(--red-bg);
+    border-color: var(--red-border);
+}
+
+.input-yellow {
+    color: var(--yellow-clr);
+    background-color: var(--yellow-bg);
+    border-color: var(--yellow-border);
+}
+
+/* input with icon */
+.input-icn-container{
+    
+    display: flex;
+    
+}
+.input-icn-container .input{
+    width: 100%;
+    height: auto;
+    
+    margin: 4px;
+    padding: 0px;
+    border: none;
+    background-color: inherit;
+    color: inherit;
+    font-size: inherit;
+}
+
+.input-icn{
+    align-self: center;
+    font-weight: bolder;
+    color: inherit;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px;
+    
+}
+.input-icn:hover{
+    background-color: var(--litegray-bg);
+    color: var(--cta1);
+}
+
+

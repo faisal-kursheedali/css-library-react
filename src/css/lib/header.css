@@ -1,0 +1,41 @@
+/* This file has all css required for Header component */
+
+/* header container */
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* header text */
+.header-text{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+    display: block;
+    margin-top: 1rem;
+}
+/* header sub text */
+.header-sub-txt{
+    font-size: 50%;
+    font-weight: 100;
+}
+/* header image */
+.header-img{
+    width: 50%;
+    /* display: block;
+    margin: auto; */
+    max-width: 400px;
+}
+@media (min-width:750px) {
+    .header{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .header-text{
+        margin: auto;
+    }
+    .header-img{
+        display: inline;
+    }
+}

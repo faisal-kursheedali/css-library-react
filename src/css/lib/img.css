@@ -1,0 +1,33 @@
+/* This file has all css required for responsive image component */
+
+/* square image */
+.img-sqr {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 1rem;
+  }
+  .img-sqr-alter{
+    max-width: var(--maxwidth);
+    max-height: var(--maxheight);
+    object-fit: cover;
+  }
+  
+  /* round image */
+  .img-rnd-container {
+    min-width: 20vw;
+    max-width: 500px;
+    aspect-ratio: 1/1;
+    
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .img-rnd {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .img-center {
+    margin: 0 auto;
+  }

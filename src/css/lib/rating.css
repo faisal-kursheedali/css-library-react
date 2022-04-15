@@ -1,0 +1,32 @@
+/* This file has all css required for Rating component */
+
+/* rating input */
+.rating-input{
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* rating icon */
+.rating-star-icn{
+    font-size: 1.2rem;
+}
+
+/* old rating display */
+.rating-old,.rating-old-rnd{
+    margin: 1rem;
+    display: inline-flex;
+    align-items: center;
+    background-color: green;
+    padding: 4px;
+}
+
+.rating-old-rnd{
+    border-radius: 3rem;
+}
+.rating-old-icn{
+    font-size: inherit;
+}
+
+
