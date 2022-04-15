@@ -1,10 +1,10 @@
 import React from 'react'
-import img from '../../images/install.png'
+import image from '../../images/install.png'
 const Install = () => {
   return (
     <>
    
-      <img src={img} alt="" className="header-img" />
+      <img src={image} alt="" className="header-img" />
       <div className="txt-box">
         <div className="head2 bold">
           Installation

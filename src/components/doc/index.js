@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import { NavcontextProvider } from '../nav/nav-context'
 import Navmenu from '../nav/nav-menu'
 import Sidenav from '../nav/side-nav'

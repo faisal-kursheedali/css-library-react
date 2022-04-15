@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../images/home-header-img.png'
+import image from '../../images/home-header-img.png'
 import{AiOutlineArrowRight} from 'react-icons/ai';
 import {Link} from  "react-router-dom"
 // import "./home.css"
@@ -10,7 +10,7 @@ const Home = () => {
     <div className="container">
         <div className="header">
             
-              <img src={img} alt="header image" className="header-img"/>
+              <img src={image} alt="header image" className="header-img"/>
             
             <div className="header-text">
                 Build <span className="cta1">UI</span>
